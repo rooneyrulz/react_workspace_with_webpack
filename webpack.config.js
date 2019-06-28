@@ -1,7 +1,7 @@
-import path from "path";
-import htmlWebpackPlugin from "html-webpack-plugin";
+const path = require("path");
+const htmlWebpackPlugin = require("html-webpack-plugin");
 
-export default {
+module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, "dist"),
